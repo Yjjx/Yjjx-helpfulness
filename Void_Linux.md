@@ -38,7 +38,7 @@ xi linux-firmware-amd mesa-dri mesa-vaapi mesa-vdpau Vulkan-ValidationLayers Vul
 ```
 ###### Программы
 ```
-xi -Suv neofetch nano ffmpeg xclip kdenlive krita gimp inkscape gwenview wine wine-32bit wine-gecko wine-mono wine-devel winetricks steam lutris kcalc okular gparted libreoffice libreoffice-i18n-ru obs audacity firefox firefox-i18n-ru ark vlc qbittorrent android-tools noto-fonts-cjk noto-fonts-emoji kdegraphics-thumbnailers ffmpegthumbs ssr git curl
+xi -Suv neofetch nano ffmpeg xclip kdenlive krita gimp inkscape gwenview wine wine-32bit wine-gecko wine-mono wine-devel winetricks steam lutris kcalc okular gparted libreoffice libreoffice-i18n-ru obs audacity firefox firefox-i18n-ru ark vlc qbittorrent android-tools noto-fonts-cjk noto-fonts-emoji kdegraphics-thumbnailers ffmpegthumbs ssr git curl pulseaudio
 ```
 ###### Описание программ
 ```
@@ -59,6 +59,7 @@ qbittorrent -- торент клиент
 kdegraphics-thumbnailers ffmpegthumbs -- превью видео и pdf для dolphin
 android-tools -- для управления смартфоном через Fastboot и ADB
 ssr -- SimpleScreenRecorder
+pulseaudio -- чтобы звук был.
 ```
 ###### Установка VirtualBox в Void Linux
 ```
