@@ -106,3 +106,76 @@ git pull
 ./xbps-src pkg %package%
 xi --repository hostdir/binpkgs/nonfree %package%
 ```
+
+###### Установка Waydroid на Void Linux
+
+!!! читаем https://docs.waydro.id/usage/install-on-desktops#void-linux
+
+не забываем что нам нужен wayland сеанс, и устанавливаем waydroid, и пакеты для буфера обмена
+```
+sudo xbps-install -S waydroid xclip python3-pyclip wl-clipboard
+```
+после установки, читаем рекомендации
+```
+/usr/share/doc/waydroid/README.voidlinux
+```
+где рекомендуют внести конфигурации в ядро линукс psi=1
+вносим конфигурации в ядро
+
+в начале проверяем в консоли, включен ли он
+```
+cat /proc/pressure/cpu
+```
+Если выдаст, то выключен
+```
+cat: /proc/pressure/cpu: Нет такого файла или каталога
+```
+значит открываем файл
+```
+/etc/default/grub
+```
+ищем строчку
+```
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=4"
+```
+и добавляем psi=1 через пробел, между кавычек
+должно быть что-то такое, одной строкой
+```
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=4 psi=1"
+```
+сохраняем и закрываем вводим
+```
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+```
+sudo reboot
+```
+повторно проверяем
+```
+cat /proc/pressure/cpu
+```
+если выдаст подобное, то всё работает
+```
+some avg10=1.75 avg60=0.93 avg300=0.23 total=783728
+full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+```
+далее добавляем в автозагрузку waydroid контейнер
+```
+sudo ln -s /etc/sv/waydroid-container /var/service
+```
+и запускаем установщик
+```
+sudo waydroid init
+```
+ждём загрузки и установки
+```
+sudo reboot
+```
+запускаем waydroid через пуск
+
+для установки apk файлов через консоль линукс, не забудьте, что должен быть включен режим разработчика в настройках андроида (можно потыкать на версию ядра в описании О телефоне, раз десять, после чего появится режим разработчика), потом внутри Режима разработчика включить Режим отладки по USB
+
+далее в консоли на линукс можно установить apk файл, только для архитектуры х86_64 (установку делать только при запущенном окне waydroid, если установка не произошла, значит архитектура не подошла)
+```
+waydroid app install name.apk
+```
