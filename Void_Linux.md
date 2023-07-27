@@ -107,7 +107,7 @@ git pull
 xi --repository hostdir/binpkgs/nonfree %package%
 ```
 
-###### Установка Waydroid на Void Linux
+##### Установка Waydroid на Void Linux
 
 !!! читаем https://docs.waydro.id/usage/install-on-desktops#void-linux
 
