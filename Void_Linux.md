@@ -26,7 +26,7 @@ sudo ln -s /etc/sv/bluetoothd /var/service
 ```
 ###### Драйвера для nvidia
 ```
-xi nvidia nvidia-libs nvidia-libs-32bit vulkan-loader vulkan-loader-32bit Vulkan-ValidationLayers Vulkan-ValidationLayers-32bit Vulkan-Headers Vulkan-Tools mesa-32bit mesa-dri-32bit mesa-dri
+xi nvidia nvidia-libs nvidia-libs-32bit vulkan-loader vulkan-loader-32bit Vulkan-ValidationLayers Vulkan-ValidationLayers-32bit Vulkan-Headers Vulkan-Tools
 ```
 ###### Драйвера intel
 ```
