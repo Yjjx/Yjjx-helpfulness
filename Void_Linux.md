@@ -28,6 +28,10 @@ sudo ln -s /etc/sv/bluetoothd /var/service
 ```
 xi nvidia nvidia-libs nvidia-libs-32bit vulkan-loader vulkan-loader-32bit Vulkan-ValidationLayers Vulkan-ValidationLayers-32bit Vulkan-Headers Vulkan-Tools
 ```
+Может понадобится 
+```
+xi nv-codec-headers nv-codec-headers-32bit nvidia-opencl renderdoc-32bit
+```
 P.s также можно рассмотреть установку dkms(не забудье поставить сам dkms) драйвера
 для (400, 500, - 640) series
 ```
