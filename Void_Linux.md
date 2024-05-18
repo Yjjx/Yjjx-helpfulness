@@ -28,6 +28,19 @@ sudo ln -s /etc/sv/bluetoothd /var/service
 ```
 xi nvidia nvidia-libs nvidia-libs-32bit vulkan-loader vulkan-loader-32bit Vulkan-ValidationLayers Vulkan-ValidationLayers-32bit Vulkan-Headers Vulkan-Tools
 ```
+P.s также можно рассмотреть установку dkms(не забудье поставить сам dkms) драйвера
+для (400, 500, - 640) series
+```
+xi nvidia390-dkms
+```
+для (650, 700) series
+```
+xi nvidia470-dkms
+```
+900 серия и новее
+```
+xi nvidia-dkms
+```
 ###### Драйвера intel
 ```
 xi mesa-dri linux-firmware-intel intel-video-accel mesa-vulkan-intel Vulkan-ValidationLayers Vulkan-ValidationLayers-32bit Vulkan-Headers Vulkan-Tools mesa-32bit mesa-vulkan-intel-32bit  vulkan-loader vulkan-loader-32bit
