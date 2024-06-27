@@ -6,6 +6,9 @@ https://github.com/void-linux/void-packages
 Руководство установки
 https://docs.voidlinux.org/installation/
 
+Альтернативная шпаргалка не за момм авторством 
+https://gist.github.com/themagicalmammal/e443d3c5440d566f8206e5b957ab1493
+
 ###### Установка xtools и nonfree & multilib для удобства
 ```
 sudo xbps-install -Suv
