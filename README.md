@@ -6,5 +6,5 @@
 И конечно же, ваши дополнения в виде пул реквестов приветствуются
 - [Void Linux post-install гайд](Void_Linux.md)
 - [Homelab](./homelab)
- - [Inspur SA5212M5 / NF5280M5](./homelab/inspur_sa5212m5/README.md)
+ - [Inspur SA5212M5 / NF5280M5](./homelab/inspur_sa5212m5/inspur_sa5212m5.md)
 
