@@ -56,23 +56,31 @@
 
 Материнские платы 
 * YZMB-00882-101, YZMB-00882-100, YZMB-00882-10A
+
 PCI-e riser
 * YPCB-00776-1P2 - X16+X8 [Aliexpress](https://ali.click/q6plnq)
 * YPCB-00772-1P2 - X16 (но не тот что вставляется в 3й слот)
 * YPCB-00771-1P2 - X8+X8+X8 [Aliexpress](https://ali.click/q6plnq)
 * К сожалению riser для установки в 3й PCIe слот не найден. 
+
 M2 адаптер
 * YZRI-00880-101 M2x2
+
 SAS RAID/HBA 
 * YPCB-00424 [Aliexpress](https://ali.click/sshmmw)
+
 Сетевые карты OCP/Проприетарные
+
 * YZNC-00763-101 [Aliexpress](https://ali.click/y5qln9)
 * PCB001123 CX4421A 2*25GbE SFP28
 * PCB001460 CX556A-ECAT 2x 100G Ethernet
+
 Frontplane 
 * YZBB-00789-101 12 LFF
+
 Backplane 
 * YZBB-00768-101 2 SFF   [Aliexpress](https://ali.click/nbqlnp)
+
 FAN
 * [Aliexpress](https://ali.click/jmixle)
 
