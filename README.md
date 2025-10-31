@@ -5,6 +5,6 @@
 
 И конечно же, ваши дополнения в виде пул реквестов приветствуются
 - [Void Linux post-install гайд](Void_Linux.md)
-- [Homelab]([Homelab](./homelab))
+- [Homelab](./homelab)
 
 
