@@ -1,0 +1,1 @@
+/home/yjjx/gith/Yjjx-helpfulness/homelab/inspur_sa5212m5/inspur_sa5212m5.md
