@@ -84,5 +84,8 @@ Backplane
 FAN
 * [Aliexpress](https://ali.click/jmixle)
 
+PSU
+* Great Wall GW-CRPS (GW-CRPS800B и другие пин совместимые)
+
 
 <sub>1: Через слот M2_conn, требует переходник, который практически не найти в продаже YZRI-00880-101</sub>
